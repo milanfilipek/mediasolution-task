@@ -5,3 +5,6 @@ Jednoduchá webová aplikace, která dokáže načíst XML soubor do databáze, 
 
 ## Instalace
 Jako první věc je třeba si na náš server naimportovat databázi, kterou najdeme ve složce "databaze". Poté už stačí jenom se přesměrovat do naší webové aplikace a zde si můžeme vybrat naši požadovanou akci.
+
+## Použité knihovny
+- mPDF (https://github.com/mpdf/mpdf)
