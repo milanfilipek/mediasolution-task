@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Righteous&display=swap&subset=latin-ext');
+
+html, body {
+  height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+  margin: 5;
+}
+
+header h1 {
+  font-family: Righteous, sans-serif;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table th {
+  text-align: center;
+}
+
+input[type=text] {
+  margin-left: 10px;
+  padding: 5px;
+  width: 70%;
+}
+
+label {
+  padding-right: 10px;
+  text-align: right;
+  width: 120px;
+  display: inline-block;
+}
+
+.submitBtn {
+  border: 1px solid black;
+  width: 100px;
+  height: 25px;
+  text-align: center;
+  background-color: white;
+  color: black;
+  transition: 0.75s;
+  margin-left: 40%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.submitBtnImport {
+  border: 1px solid black;
+  width: 100px;
+  height: 25px;
+  text-align: center;
+  background-color: white;
+  color: black;
+  transition: 0.75s;
+}
+
+.submitBtn:hover, .generaceBtn:hover, .editaceBtn:hover, .submitBtnImport:hover{
+  background-color: black;
+  transition: 0.75s;
+  color: white;
+}
+
+.generaceBtn, .editaceBtn {
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  padding: 3px 3px 3px 3px;
+  border: 1px solid black;
+}
+
