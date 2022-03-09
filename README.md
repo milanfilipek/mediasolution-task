@@ -1,4 +1,4 @@
-# mediasolution-task
+# mediasolution - entry task solution
 
 ## Popis
 Jednoduchá webová aplikace, která dokáže načíst XML soubor do databáze, poté se dají data upravovat přímo ve webové aplikaci a také můžeme vygenerovat PDF s detailem našeho vybraného produktu. Aplikace také umí data z databáze zapsat data do XML souboru.
